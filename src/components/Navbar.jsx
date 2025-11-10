@@ -37,7 +37,7 @@ export default function Navbar() {
 
         {/* Botón Descargar CV */}
         <a
-          href="public/cv-jeffer-doria.pdf"
+          href="/cv/cv-jeffer-doria.pdf"
           download
           className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition-all duration-300 shadow-lg hover:shadow-blue-600/25 flex items-center gap-2"
         >
