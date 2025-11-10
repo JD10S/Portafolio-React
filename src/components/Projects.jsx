@@ -20,7 +20,7 @@ const sliderSettings = {
 
 const projects = [
   {
-    img: '/public/projects/proyecto1.png',
+    img: '/projects/proyecto1.png',
     title: 'GymPro - Sistema de Gestión para Gimnasios Web',
     desc: 'Sistema completo en Laravel 11 + Livewire + FilamentPHP para gestión de membresías, pagos, asistencia por QR, clases y reportes. Incluye panel admin y app móvil con Expo.',
     tech: ["Laravel", "Livewire", "Filament", "MySQL", "Tailwind", "React Native"],
@@ -28,7 +28,7 @@ const projects = [
     repo: 'https://github.com/JD10S/gym_web'
   },
   {
-    img: '/public/projects/proyecto2.png',
+    img: '/projects/proyecto2.png',
     title: 'PrimeVideo Clone - Plataforma de Streaming Completa',
     desc: 'Réplica exacta de Amazon Prime Video con más de 15 pantallas. Reproductor de video personalizado, carruseles infinitos, categorías, búsqueda con filtros.',
     tech: ["HTML5", "Bootstrap 5", "LocalStorage", "Laravel 11", "MySQL", "API REST"],
@@ -36,7 +36,7 @@ const projects = [
     repo: '#'
   },
   {
-    img: '/public/projects/proyecto3.png',
+    img: '/projects/proyecto3.png',
     title: 'GymFit  (App de Escritorio)',
     desc: 'Desarrollada en C# .NET 8 con Windows Forms. Gestiona membresías, pagos,incluye base de datos local con SQL Server Express y sistema de backups automáticos.',
     tech: ["C#", ".NET 8", "Windows Forms", "SQL Server Express", "Entity Framework Core"],
