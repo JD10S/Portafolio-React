@@ -1,0 +1,26 @@
+{
+  "name": "Jeffer Peralta",
+  "short_name": "JefferDev",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e293b",
+  "background_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "description": "Fullstack PHP & .NET Developer | Laravel | C# | PrimeVideo Clone | GymPro"
+}
