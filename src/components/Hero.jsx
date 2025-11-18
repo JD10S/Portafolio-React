@@ -14,7 +14,7 @@ export default function Hero() {
           className="space-y-6"
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-none tracking-tighter whitespace-nowrap">
-            Fullstack PHP Developer
+            Fullstack  Developer
           </h1>
           
           <p className="text-lg text-gray-300 max-w-lg">
