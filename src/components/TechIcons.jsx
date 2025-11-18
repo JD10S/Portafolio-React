@@ -1,18 +1,24 @@
 // src/components/TechIcons.jsx
 import { motion } from "framer-motion";
 
-// Íconos oficiales
+
 import { 
-  FaPhp, FaLaravel, FaHtml5, FaCss3Alt, FaJs, FaReact,
-  FaGitAlt, FaGithub
-} from "react-icons/fa";
+  FaPhp, 
+  FaLaravel, 
+  FaHtml5, 
+  FaCss3Alt, 
+  FaJs, 
+  FaReact,
+  FaGitAlt, 
+  FaGithub
+} from "react-icons/fa6";
+
 
 import {
   SiMysql,
   SiDotnet,
   SiReact,
-  SiTailwindcss,
-  SiCsharp
+  SiTailwindcss
 } from "react-icons/si";
 
 const techs = [
@@ -23,11 +29,13 @@ const techs = [
   { name: "HTML", Icon: FaHtml5, color: "text-orange-500" },
   { name: "CSS", Icon: FaCss3Alt, color: "text-blue-400" },
 
- 
   { name: "React", Icon: FaReact, color: "text-cyan-400" },
   { name: "React Native", Icon: SiReact, color: "text-cyan-300" },
-  { name: "C#", Icon: SiCsharp, color: "text-purple-500" },
-  { name: ".NET", Icon: SiDotnet, color: "text-purple-400" },
+
+
+
+  { name: ".NET", Icon: SiDotnet, color: "text-purple-300" },
+
   { name: "Tailwind", Icon: SiTailwindcss, color: "text-sky-400" },
   { name: "Git", Icon: FaGitAlt, color: "text-orange-600" },
   { name: "GitHub", Icon: FaGithub, color: "text-gray-300" },
