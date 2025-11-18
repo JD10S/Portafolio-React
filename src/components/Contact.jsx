@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, MessageCircle } from 'lucide-react';
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser'; 
+import { FaWhatsapp } from "react-icons/fa";
+
 
 
 const SERVICE_ID = 'service_xucxh1s';      
@@ -68,8 +70,8 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition"
                 >
-                  <MessageCircle size={28} />
-                </a>
+  <FaWhatsapp size={28} />
+</a>
               </div>
             </div>
 
