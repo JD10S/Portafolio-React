@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
-        {/* Logo / Nombre */}
+        
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">JP</span>
@@ -21,7 +21,7 @@ export default function Navbar() {
           <h1 className="text-xl font-bold text-white">Jeffer Peralta</h1>
         </div>
 
-        {/* Enlaces (ocultos en móvil) */}
+     
         <ul className="hidden md:flex space-x-8 text-sm text-gray-300">
           {navLinks.map((link) => (
             <li key={link.name}>
@@ -35,7 +35,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Botón Descargar CV */}
+       
         <a
           href="/cv/cv-jeffer-doria.pdf"
           download

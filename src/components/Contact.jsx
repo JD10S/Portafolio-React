@@ -2,25 +2,25 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, MessageCircle } from 'lucide-react';
 import { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser'; // ← Nueva importación
+import emailjs from '@emailjs/browser'; 
 
-// ← REEMPLAZA ESTOS VALORES CON LOS TUYOS DEL PASO 1-4
-const SERVICE_ID = 'service_xucxh1s';      // Tu Service ID
-const TEMPLATE_ID = 'template_fzhgkhc';    // Tu Template ID
-const PUBLIC_KEY = 'bQlR90Ze78_kTY6VK';         // Tu Public Key
 
-// Inicializa EmailJS
+const SERVICE_ID = 'service_xucxh1s';      
+const TEMPLATE_ID = 'template_fzhgkhc';    
+const PUBLIC_KEY = 'bQlR90Ze78_kTY6VK';         
+
+
 emailjs.init(PUBLIC_KEY);
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
-  const formRef = useRef(); // ← Referencia para el form
+  const formRef = useRef(); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Envía el email con EmailJS
+    
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current)
       .then((result) => {
         setStatus('¡Mensaje enviado! Te responderé pronto.');
@@ -37,7 +37,7 @@ export default function Contact() {
     <section id="contact" className="py-24 px-6 bg-gradient-to-b from-gray-900 to-gray-800">
       <div className="max-w-6xl mx-auto">
 
-        {/* Tarjeta principal */}
+      
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ export default function Contact() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
 
-            {/* Izquierda: Título + Texto + Redes */}
+            
             <div className="space-y-8">
               <h2 className="text-4xl md:text-5xl font-bold text-white">
                 Hablemos
@@ -73,7 +73,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Derecha: Formulario */}
+           
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
               <input
                 type="text"
@@ -112,7 +112,7 @@ export default function Contact() {
           </div>
         </motion.div>
 
-        {/* Mensaje de éxito */}
+        
         {status && (
           <motion.p
             initial={{ opacity: 0 }}

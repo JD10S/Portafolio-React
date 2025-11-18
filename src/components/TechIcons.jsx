@@ -6,7 +6,7 @@ import {
   Globe, 
   Code2,
   Layers,
-  Braces // Para PHP (ícono de código con llaves)
+  Braces 
 } from 'lucide-react';
 
 const techs = [

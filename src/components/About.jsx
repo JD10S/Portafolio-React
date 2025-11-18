@@ -1,13 +1,13 @@
 // src/components/About.jsx
 import { motion } from 'framer-motion';
-import { TechIcons } from './TechIcons'; // <-- Usa el componente que ya tienes
+import { TechIcons } from './TechIcons';
 
 export default function About() {
   return (
     <section id="about" className="py-20 px-6 bg-gray-800">
       <div className="max-w-7xl mx-auto text-center space-y-12">
 
-        {/* Título + Texto */}
+       
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ export default function About() {
           </p>
         </motion.div>
 
-        {/* Título de Tecnologías */}
+      
         <motion.h3
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -34,7 +34,7 @@ export default function About() {
           Mis Tecnologías
         </motion.h3>
 
-        {/* Iconos de tecnologías */}
+        
         <TechIcons />
       </div>
     </section>
