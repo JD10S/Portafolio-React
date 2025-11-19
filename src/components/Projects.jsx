@@ -51,8 +51,8 @@ const projects = [
 export default function Projects() {
   const sliderRef = useRef(null);
 
-  const next = () => sliderRef.current.slickNext();
-  const prev = () => sliderRef.current.slickPrev();
+  const next = () => sliderRef.current?.slickNext();
+  const prev = () => sliderRef.current?.slickPrev();
 
   return (
     <section id="projects" className="py-20 px-6 bg-gray-800">
@@ -69,22 +69,8 @@ export default function Projects() {
 
         <div className="relative">
 
-          
-          <button
-            onClick={prev}
-            className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 bg-gray-700/70 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg"
-          >
-            <ChevronLeft size={22} />
-          </button>
-
-          <button
-            onClick={next}
-            className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 bg-gray-700/70 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg"
-          >
-            <ChevronRight size={22} />
-          </button>
-
          
+
           <Slider ref={sliderRef} {...sliderSettings}>
             {projects.map((p, i) => (
               <div key={i} className="px-3">
@@ -128,20 +114,20 @@ export default function Projects() {
             ))}
           </Slider>
 
-         
-          <div className="flex md:hidden justify-center gap-6 mt-4">
+          
+          <div className="flex md:hidden justify-center gap-6 mt-6">
             <button
               onClick={prev}
-              className="bg-gray-700/70 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg"
+              className="bg-gray-700/80 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg"
             >
-              <ChevronLeft size={22} />
+              <ChevronLeft size={26} />
             </button>
 
             <button
               onClick={next}
-              className="bg-gray-700/70 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg"
+              className="bg-gray-700/80 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg"
             >
-              <ChevronRight size={22} />
+              <ChevronRight size={26} />
             </button>
           </div>
 

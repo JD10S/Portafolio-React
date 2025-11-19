@@ -17,10 +17,17 @@ export default function Hero() {
             Fullstack  Developer
           </h1>
           
-          <p className="text-lg text-gray-300 max-w-lg">
-            Desarrollo aplicaciones web completas con PHP y Laravel, desde la interfaz hasta la lógica del servidor. 
-  Me enfoco en soluciones funcionales, mantenibles y escalables.
-          </p>
+         <p className="text-lg text-gray-300 max-w-lg">
+  Desarrollo aplicaciones web completas con {" "}
+  <span className="font-semibold text-amber-400 drop-shadow-[0_0_6px_rgba(251,191,36,0.6)]">
+    PHP y Laravel
+  </span>,{" "} abarcando tanto la lógica de servidor como la capa de presentación. 
+  Priorizo arquitecturas 
+  <span className="font-semibold text-indigo-400 drop-shadow-[0_0_6px_rgba(129,140,248,0.6)]">
+    {" "}mantenibles, escalables {" "}
+  </span> 
+  y orientadas al rendimiento.
+</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a
