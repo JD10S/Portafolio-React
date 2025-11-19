@@ -57,22 +57,34 @@ export default function Contact() {
                 ¿Tienes un proyecto en mente o quieres conectar? Envíame un mensaje o encuéntrame en mis redes sociales.
               </p>
 
-              <div className="flex gap-6 text-gray-400">
-                <a href="https://github.com/JD10S" className="hover:text-white transition">
-                  <Github size={28} />
-                </a>
-                <a href="https://www.linkedin.com/in/jeffer-peralta-b07486213" className="hover:text-white transition">
-                  <Linkedin size={28} />
-                </a>
-                <a
-                  href="https://wa.me/573002029380?text=¡Hola!%20Me%20interesa%20contactarte."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-green-400 transition"
-                >
-  <FaWhatsapp size={28} />
-</a>
-              </div>
+             <div className="flex gap-6 text-gray-400">
+  <a
+    href="https://github.com/JD10S"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    <Github size={28} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/jeffer-peralta-b07486213"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    <Linkedin size={28} />
+  </a>
+
+  <a
+    href="https://wa.me/573002029380?text=¡Hola!%20Me%20interesa%20contactarte."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-green-400 transition"
+  >
+    <FaWhatsapp size={28} />
+  </a>
+</div>
             </div>
 
            
