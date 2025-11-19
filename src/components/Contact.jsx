@@ -62,7 +62,7 @@ export default function Contact() {
     href="https://github.com/JD10S"
     target="_blank"
     rel="noopener noreferrer"
-    className="hover:text-white transition"
+    className="hover:text-amber-600 transition"
   >
     <Github size={28} />
   </a>
@@ -71,7 +71,7 @@ export default function Contact() {
     href="https://www.linkedin.com/in/jeffer-peralta-b07486213"
     target="_blank"
     rel="noopener noreferrer"
-    className="hover:text-white transition"
+    className="hover:text-blue-700 transition"
   >
     <Linkedin size={28} />
   </a>
