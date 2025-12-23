@@ -46,6 +46,19 @@ const projects = [
     demo: '#',
     repo: 'https://github.com/JD10S/GymApp'
   },
+  {
+    img: '/projects/proyecto4.png',
+    title: 'Marketplace API – Módulo de Carrito de Compras',
+    desc: 'API REST desarrollada en ASP.NET Core que implementa un carrito de compras por usuario. Incluye creación automática del carrito, adición y actualización de productos, cálculo del total y control de integridad referencial en PostgreSQL. Proyecto enfocado en arquitectura por capas y resolución de errores reales de backend.',
+    tech: ["ASP.NET Core",
+  "C#",
+  "PostgreSQL",
+  "Npgsql",
+  "REST API",
+  "Arquitectura en Capas"],
+    demo: 'https://vercel.com/jd10s-projects/marketplace-react-frontend/38JAx9jsDj9ouS8TrHEBqmTRtEtL',
+    repo: 'https://github.com/JD10S/marketplace-dotnet-backend'
+  },
 ];
 
 export default function Projects() {
