@@ -25,7 +25,7 @@ const projects = [
   {
     img: '/projects/proyecto4.png',
     title: 'Marketplace API – Módulo de Carrito de Compras',
-    desc: 'API REST en ASP.NET Core para carrito de compras, enfocada en arquitectura por capas y manejo correcto de datos.',
+    desc: 'API REST en ASP.NET Core para carrito de compras con PostgreSQL y arquitectura por capas.',
     tech: ["ASP.NET Core",
   "C#",
   "PostgreSQL",
