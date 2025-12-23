@@ -49,14 +49,14 @@ const projects = [
   {
     img: '/projects/proyecto4.png',
     title: 'Marketplace API – Módulo de Carrito de Compras',
-    desc: 'API REST desarrollada en ASP.NET Core que implementa un carrito de compras por usuario. Incluye creación automática del carrito, adición y actualización de productos, cálculo del total y control de integridad referencial en PostgreSQL. Proyecto enfocado en arquitectura por capas y resolución de errores reales de backend.',
+    desc: 'API REST desarrollada en ASP.NET Core que implementa un carrito de compras por usuario. Incluye  adición y actualización de productos, cálculo del total y control de integridad referencial en PostgreSQL. Proyecto enfocado en arquitectura por capas y resolución de errores reales de backend.',
     tech: ["ASP.NET Core",
   "C#",
   "PostgreSQL",
   "Npgsql",
   "REST API",
   "Arquitectura en Capas"],
-    demo: 'https://vercel.com/jd10s-projects/marketplace-react-frontend/38JAx9jsDj9ouS8TrHEBqmTRtEtL',
+    demo: 'https://marketplace-react-frontend.vercel.app/',
     repo: 'https://github.com/JD10S/marketplace-dotnet-backend'
   },
 ];
@@ -114,13 +114,23 @@ export default function Projects() {
                     </div>
 
                     <div className="flex gap-3">
-                      <a href={p.demo} className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium">
-                        Demo
-                      </a>
-                      <a href={p.repo} className="bg-gray-600 hover:bg-gray-500 text-white px-4 py-2 rounded-lg text-sm font-medium">
-                        Repositorio
-                      </a>
-                    </div>
+  <a
+    href={p.demo}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium"
+  >
+    Demo
+  </a>
+  <a
+    href={p.repo}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gray-600 hover:bg-gray-500 text-white px-4 py-2 rounded-lg text-sm font-medium"
+  >
+    Repositorio
+  </a>
+</div>
                   </div>
                 </motion.div>
               </div>
