@@ -23,20 +23,25 @@ const sliderSettings = {
 
 const projects = [
   {
+    img: '/projects/proyecto4.png',
+    title: 'Marketplace API – Módulo de Carrito de Compras',
+    desc: 'API REST en ASP.NET Core para carrito de compras, enfocada en arquitectura por capas y manejo correcto de datos.',
+    tech: ["ASP.NET Core",
+  "C#",
+  "PostgreSQL",
+  "Npgsql",
+  "REST API",
+  "Arquitectura en Capas"],
+    demo: 'https://marketplace-react-frontend.vercel.app/',
+    repo: 'https://github.com/JD10S/marketplace-dotnet-backend'
+  },
+  {
     img: '/projects/proyecto1.png',
     title: 'GymPro - Sistema de Gestión para Gimnasios Web',
     desc: 'Sistema completo en Laravel 11 + Livewire + FilamentPHP...',
     tech: ["Laravel", "Livewire", "Filament", "MySQL", "Tailwind", "React Native"],
     demo: '#',
     repo: 'https://github.com/JD10S/gym_web'
-  },
-  {
-    img: '/projects/proyecto2.png',
-    title: 'PrimeVideo Clone - Plataforma de Streaming',
-    desc: 'Réplica exacta de Amazon Prime Video...',
-    tech: ["HTML5", "Bootstrap 5", "LocalStorage", "Laravel 11", "MySQL", "API REST"],
-    demo: '#',
-    repo: '#'
   },
   {
     img: '/projects/proyecto3.png',
@@ -47,17 +52,12 @@ const projects = [
     repo: 'https://github.com/JD10S/GymApp'
   },
   {
-    img: '/projects/proyecto4.png',
-    title: 'Marketplace API – Módulo de Carrito de Compras',
-    desc: 'API REST desarrollada en ASP.NET Core que implementa un carrito de compras por usuario. Incluye  adición y actualización de productos, cálculo del total y control de integridad referencial en PostgreSQL. Proyecto enfocado en arquitectura por capas y resolución de errores reales de backend.',
-    tech: ["ASP.NET Core",
-  "C#",
-  "PostgreSQL",
-  "Npgsql",
-  "REST API",
-  "Arquitectura en Capas"],
-    demo: 'https://marketplace-react-frontend.vercel.app/',
-    repo: 'https://github.com/JD10S/marketplace-dotnet-backend'
+    img: '/projects/proyecto2.png',
+    title: 'PrimeVideo Clone - Plataforma de Streaming',
+    desc: 'Réplica exacta de Amazon Prime Video...',
+    tech: ["HTML5", "Bootstrap 5", "LocalStorage", "Laravel 11", "MySQL", "API REST"],
+    demo: '#',
+    repo: '#'
   },
 ];
 
